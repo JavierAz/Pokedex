@@ -27,6 +27,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 # Better docker
+After clone the repository you need create the dist folder so you need run:
+```
+ng build --prod
+```
+
 You need create the image 
 ```docker
 docker build -t pokeapp:poke_container .
